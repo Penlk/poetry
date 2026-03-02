@@ -17,7 +17,7 @@
 **count_words** (int) - количество слов в стихе
 **poetry** (std::vector<std::string>) - стих в строках
 
-'''
+```
 int counter_words = 0;
 for (int i = 0; i < poetry.size(); ++i) {
 	std::istringstream iss(poetry);
@@ -27,7 +27,8 @@ for (int i = 0; i < poetry.size(); ++i) {
 		++counter_words;
 	}
 }
-'''
+```
+
 Тогда poetry должен выполнять следующее условие:
 (poetry.size() >= 4 && poetry.size() <= 6) && (counter_words >= 30 && counter_words <= 50) 
 
