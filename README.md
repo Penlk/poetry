@@ -17,7 +17,7 @@
 
 **count_words** (int) - количество слов в стихе
 
-**poetry** (std::vector<std::string>) - стих в строках
+**poetry** (```std::vector<std::string>```) - стих в строках
 
 ```
 int counter_words = 0;
